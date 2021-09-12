@@ -1,0 +1,12 @@
+.ch4 {
+	&__dark-mode-btn {
+		border: 0;
+		padding: 8px;
+		background-color: #fce7f3;
+		color: #ec4899;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		cursor: pointer;
+	}
+}

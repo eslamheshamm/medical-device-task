@@ -1,0 +1,43 @@
+// table tr th:first-child {
+// 	display: flex;
+// 	justify-content: center;
+// }
+
+table {
+	width: 100%;
+	border: #f5f6f7 1px solid;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+table th,
+table td {
+	padding: 1rem 1.5rem;
+	border-bottom: 1px solid gray;
+}
+.user-info {
+	display: flex;
+	align-items: center;
+}
+.user-info p {
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+}
+.user-info p span:first-child {
+	font-size: 1.2rem;
+	margin-bottom: 0.2rem;
+}
+.user-info p span:nth-child(2) {
+	color: #969696;
+	// font-size: ;
+}
+.user-info img {
+	width: 3rem;
+	height: 3rem;
+	border-radius: 999px;
+}
+.user-info figure {
+	margin: 0;
+	margin-right: 1.5rem;
+}
